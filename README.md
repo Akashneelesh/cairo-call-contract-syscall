@@ -31,9 +31,9 @@ Please refer to the env.example and create a .env file by replacing the variable
 ### Building the Project
 
 To compile the project, run:
-`bash
+    ```bash
     scarb build
-    `
+    ```
 This will generate the sierra and casm files in the target folder.
 
 ### Contract Deployment
@@ -41,16 +41,16 @@ This will generate the sierra and casm files in the target folder.
 This project includes deployment scripts for Sender and Receiver contracts.
 
 To deploy the Sender contract, run:
-`bash
+    ```bash
     npx ts-node scripts/deployment_send.ts
-    `
+    ```
 
 This will provide the contract address for interaction.
 
 For deploying the Receiver contract, execute:
-`bash
+    ```bash
     npx ts-node scripts/deployment_receive.ts
-    `
+    ```
 
 For more information, check out the contract files within the project directory.
 
