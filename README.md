@@ -7,6 +7,7 @@ What this particular syscall essentially does is the same low level call as we h
 ## Getting Started
 
 These instructions will help you set up and deploy the project.
+Please refer to the env.example and create a .env file by replacing the variables.
 
 ### Prerequisites
 
